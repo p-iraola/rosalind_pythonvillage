@@ -6,9 +6,8 @@ of the right triangle whose legs have lengths a and b.
 '''
 
 
-a = 984
-a = a * a
-b = 836
-b = b * b
-c = a + b
-print(c)
+def hypotenuse_squared(a,b):
+  a = a * a
+  b = b * b
+  c = a + b
+  return c
