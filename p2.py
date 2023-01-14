@@ -7,7 +7,5 @@ In other words, we should include elements s[b] and s[d] in our slice.
 '''
 
 
-string = 'YLobdshTCkBradyporuslckgeNkNoTmmhPn3uHpZ3vBZpcVzbqgJcusFeM4yLeqPBKCo3EmaihensishxtrHcL2Mv4n0vC7W8kVdFf24613TrdXscdGh209gPWO5l0Bhm3zcGaDTfHDEcJBLh72ph1ATXXF1vba8DGA7vH.'
-ints = '10 19 70 78'
-
-print(string[10:20] + ' ' + string[70:79])
+def string_slicer(my_string, a, b, c, d):
+  return f'{my_string[a:b+1]} {my_string[c:d+1]}'
